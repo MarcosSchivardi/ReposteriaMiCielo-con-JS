@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "titulo": "🍫BROWNIE FRAMBCHOCS🍫",
+        "imagen": "./Fotos/1.jpg",
+        "descripcion":"Brownie de chocolate negro con almendras y nueces, dulce de leche, crema y frambuesas bañadas en chocolate",
+        "precio": 4000,
+        "unidades":"1"
+
+    },
+    {
+        "id": 2,
+        "titulo": "🍫BROWNIE FRAMBCHOCS🍫",
+        "imagen": "./Fotos/2.jpg",
+        "descripcion":"Brownie de chocolate negro con almendras y nueces, dulce de leche, crema y frambuesas bañadas en chocolate",
+        "precio": 4200,
+        "unidades":"1"
+
+    },
+    {
+        "id": 3,
+        "titulo": "🍫BROWNIE FRAMBCHOCS🍫",
+        "imagen": "./Fotos/3.jpg",
+        "descripcion":"Brownie de chocolate negro con almendras y nueces, dulce de leche, crema y frambuesas bañadas en chocolate",
+        "precio": 4300,
+        "unidades":"1"
+
+    }
+]
