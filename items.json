@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "titulo": "🍫BROWNIE FRAMBCHOCS🍫",
+        "titulo": "BROWNIE FRAMBCHOCS",
         "imagen": "./Fotos/1.jpg",
         "descripcion":"Brownie de chocolate negro con almendras y nueces, dulce de leche, crema y frambuesas bañadas en chocolate",
         "precio": 4000,
@@ -10,18 +10,46 @@
     },
     {
         "id": 2,
-        "titulo": "🍫BROWNIE FRAMBCHOCS🍫",
-        "imagen": "./Fotos/2.jpg",
-        "descripcion":"Brownie de chocolate negro con almendras y nueces, dulce de leche, crema y frambuesas bañadas en chocolate",
+        "titulo": "DRIPCAKE",
+        "imagen": "./Fotos/8.jpg",
+        "descripcion":"Bizcochuelo húmedo de vainilla, relleno de dulce de leche con chips, y pasta bonobon con nueces",
         "precio": 4200,
         "unidades":"1"
 
     },
     {
         "id": 3,
-        "titulo": "🍫BROWNIE FRAMBCHOCS🍫",
-        "imagen": "./Fotos/3.jpg",
-        "descripcion":"Brownie de chocolate negro con almendras y nueces, dulce de leche, crema y frambuesas bañadas en chocolate",
+        "titulo": "TORTA DEFORMITOS",
+        "imagen": "./Fotos/4.jpg",
+        "descripcion":"Bizcochuelo húmedo de vainilla, relleno de dulce de leche, cubierta de crema, dibujos realizados con...",
+        "precio": 4400,
+        "unidades":"1"
+
+    },
+    {
+        "id": 4,
+        "titulo": "TORTA AVENGERS",
+        "imagen": "./Fotos/5.jpg",
+        "descripcion":"Bizcochuelo húmedo de vainilla, relleno con dulce de leche, cubierta con crema en 4 colores!!",
+        "precio": 4300,
+        "unidades":"1"
+
+    },
+    {
+        "id": 5,
+        "titulo": "BUTTERFLIES CAKE",
+        "imagen": "./Fotos/6.jpg",
+        "descripcion":"Bizcochuelo húmedo de vainilla, relleno de dulce de leche y crema con duraznos, cubierta de crema verde pastel.",
+        "precio": 4300,
+        "unidades":"1"
+
+    },
+    
+    {
+        "id": 6,
+        "titulo": "TORTA 15 AÑOS",
+        "imagen": "./Fotos/7.jpg",
+        "descripcion":"Bizcochuelo húmedo de vainilla, relleno con dulce de leche y mousse de chocolate, con GANACHE DE CHOCOLATE",
         "precio": 4300,
         "unidades":"1"
 

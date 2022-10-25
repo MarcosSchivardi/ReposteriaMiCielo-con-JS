@@ -62,12 +62,24 @@ document.addEventListener("DOMContentLoaded", () => {
     // console.log(e.target.classList.contains("btn-dark"));
     if (e.target.classList.contains("btn-dark")){
         setcarrito(e.target.parentElement)
-    
+
     }
 
-
-
     e.stopPropagation()
+
+    Toastify({
+      text: "Su producto se añadio exitosamente",
+      duration: 2000,
+      newWindow: true,
+      close: true,
+      gravity: "top", // `top` or `bottom`
+      position: "left", // `left`, `center` or `right`
+      stopOnFocus: true, // Prevents dismissing of toast on hover
+      style: {
+        background: "linear-gradient(to right, #85BAFB, #85BAFB)",
+      },
+      onClick: function(){} // Callback after click
+    }).showToast();
   }
 
   const setcarrito = objeto => {
@@ -135,6 +147,20 @@ document.addEventListener("DOMContentLoaded", () => {
     btnVaciarCarrito.addEventListener("click", () => {
         carrito ={}
         pintarCarrito()
+
+        Toastify({
+          text: "Se ha vaciado el carrito" ,
+          duration: 2000,
+          newWindow: true,
+          close: true,
+          gravity: "top", // `top` or `bottom`
+          position: "left", // `left`, `center` or `right`
+          stopOnFocus: true, // Prevents dismissing of toast on hover
+          style: {
+            background: "linear-gradient(to right, #ef0010, #ef0010)",
+          },
+          onClick: function(){} // Callback after click
+        }).showToast();
     })
 
 
@@ -147,10 +173,12 @@ document.addEventListener("DOMContentLoaded", () => {
         producto.unidades++
         carrito[e.target.dataset.id] = {...producto}
         pintarCarrito()
+        
     }
     if(e.target.classList.contains("btn-danger")){
         const producto= carrito[e.target.dataset.id]
         producto.unidades--
+        
         if(producto.unidades === 0){
             delete carrito[e.target.dataset.id]
         }
